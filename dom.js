@@ -5,6 +5,7 @@ const sections = document.querySelectorAll('section');
 
 for (const section of sections) {
     section.style.border = '2px solid red'
-    section.style.padding = '5px'
+    section.style.padding = '15px'
     section.style.margin = '10px'
+    section.style.borderRadius = '10px'
 }
